@@ -248,6 +248,7 @@ class LessonViewController: UIViewController, AVAudioPlayerDelegate, UICollectio
         setupRateSlider()
         initialSetup()
     }
+    
     @objc func settingButtonHandler()
     {
         let alert = UIAlertController(title: "Select Recitation Mode", message: nil, preferredStyle: .actionSheet)
