@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EA01793358C367A1360B244 /* Pods_AdaptiveQuran.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD69D918CA8EF3D3F16D8C8B /* Pods_AdaptiveQuran.framework */; };
+		655C2F072297D0B00007BB8C /* LessonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655C2F062297D0B00007BB8C /* LessonCollectionViewCell.swift */; };
+		655C2F0A22983F430007BB8C /* surahNames.csv in Resources */ = {isa = PBXBuildFile; fileRef = 655C2F0922983F430007BB8C /* surahNames.csv */; };
+		655C2F3522990FBD0007BB8C /* Audio in Resources */ = {isa = PBXBuildFile; fileRef = 655C2F3422990FBD0007BB8C /* Audio */; };
+		65A021DA22927247002F5785 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A021D922927247002F5785 /* DBManager.swift */; };
+		65A021DC22927615002F5785 /* Quran.db in Resources */ = {isa = PBXBuildFile; fileRef = 65A021DB22927615002F5785 /* Quran.db */; };
+		65A021DE2292E3E1002F5785 /* UserTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A021DD2292E3E1002F5785 /* UserTypeViewController.swift */; };
 		65BABCD6225B1D5A00F0A0CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BABCD5225B1D5A00F0A0CC /* AppDelegate.swift */; };
-		65BABCD8225B1D5A00F0A0CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BABCD7225B1D5A00F0A0CC /* ViewController.swift */; };
 		65BABCDB225B1D5A00F0A0CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BABCD9225B1D5A00F0A0CC /* Main.storyboard */; };
-		65BABCDE225B1D5A00F0A0CC /* AdaptiveQuran.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65BABCDC225B1D5A00F0A0CC /* AdaptiveQuran.xcdatamodeld */; };
 		65BABCE0225B1D5B00F0A0CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65BABCDF225B1D5B00F0A0CC /* Assets.xcassets */; };
 		65BABCE3225B1D5B00F0A0CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BABCE1225B1D5B00F0A0CC /* LaunchScreen.storyboard */; };
+		65BABCEB225B1FA800F0A0CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BABCEA225B1FA800F0A0CC /* ViewController.swift */; };
+		65DF485422735756002ECDF6 /* SurahTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF485322735756002ECDF6 /* SurahTableViewCell.swift */; };
+		65DF485922735830002ECDF6 /* LessonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF485822735830002ECDF6 /* LessonsViewController.swift */; };
+		65DF485B22735897002ECDF6 /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF485A22735897002ECDF6 /* LessonViewController.swift */; };
+		730841D622A0F9F6007112C5 /* LessonNumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730841D522A0F9F6007112C5 /* LessonNumberTableViewCell.swift */; };
+		73181E6A22A20D0800585D3E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73181E6922A20D0800585D3E /* Default-568h@2x.png */; };
+		733A991922AD49B400DB068A /* gearIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 733A991822AD49B400DB068A /* gearIcon.png */; };
+		7398AA6122A2175100EA25C9 /* bg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7398AA6022A2175100EA25C9 /* bg3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5324A4388BDB075FD2FA5B2A /* Pods-AdaptiveQuran.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdaptiveQuran.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdaptiveQuran/Pods-AdaptiveQuran.debug.xcconfig"; sourceTree = "<group>"; };
+		655C2F062297D0B00007BB8C /* LessonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCollectionViewCell.swift; sourceTree = "<group>"; };
+		655C2F0922983F430007BB8C /* surahNames.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = surahNames.csv; sourceTree = "<group>"; };
+		655C2F3422990FBD0007BB8C /* Audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Audio; sourceTree = "<group>"; };
+		65A021D922927247002F5785 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		65A021DB22927615002F5785 /* Quran.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quran.db; sourceTree = "<group>"; };
+		65A021DD2292E3E1002F5785 /* UserTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTypeViewController.swift; sourceTree = "<group>"; };
 		65BABCD2225B1D5A00F0A0CC /* AdaptiveQuran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdaptiveQuran.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BABCD5225B1D5A00F0A0CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65BABCD7225B1D5A00F0A0CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65BABCDA225B1D5A00F0A0CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		65BABCDD225B1D5A00F0A0CC /* AdaptiveQuran.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdaptiveQuran.xcdatamodel; sourceTree = "<group>"; };
 		65BABCDF225B1D5B00F0A0CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65BABCE2225B1D5B00F0A0CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65BABCE4225B1D5B00F0A0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65BABCEA225B1FA800F0A0CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65DF485322735756002ECDF6 /* SurahTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahTableViewCell.swift; sourceTree = "<group>"; };
+		65DF485822735830002ECDF6 /* LessonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsViewController.swift; sourceTree = "<group>"; };
+		65DF485A22735897002ECDF6 /* LessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = "<group>"; };
+		730841D522A0F9F6007112C5 /* LessonNumberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonNumberTableViewCell.swift; sourceTree = "<group>"; };
+		73181E6922A20D0800585D3E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		733A991822AD49B400DB068A /* gearIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gearIcon.png; sourceTree = "<group>"; };
+		7398AA6022A2175100EA25C9 /* bg3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg3.jpg; sourceTree = "<group>"; };
+		C574CFAA31715CD914FB44B5 /* Pods-AdaptiveQuran.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdaptiveQuran.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdaptiveQuran/Pods-AdaptiveQuran.release.xcconfig"; sourceTree = "<group>"; };
+		CD69D918CA8EF3D3F16D8C8B /* Pods_AdaptiveQuran.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdaptiveQuran.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA01793358C367A1360B244 /* Pods_AdaptiveQuran.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		511534651411BD66DA770C0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD69D918CA8EF3D3F16D8C8B /* Pods_AdaptiveQuran.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		655C2F31229845F90007BB8C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				65A021DB22927615002F5785 /* Quran.db */,
+				655C2F0922983F430007BB8C /* surahNames.csv */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		655C2F36229918370007BB8C /* Lesson */ = {
+			isa = PBXGroup;
+			children = (
+				65DF485A22735897002ECDF6 /* LessonViewController.swift */,
+				655C2F062297D0B00007BB8C /* LessonCollectionViewCell.swift */,
+			);
+			path = Lesson;
+			sourceTree = "<group>";
+		};
+		655C2F37229918620007BB8C /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				65DF485822735830002ECDF6 /* LessonsViewController.swift */,
+				730841D522A0F9F6007112C5 /* LessonNumberTableViewCell.swift */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		655C2F38229918710007BB8C /* UserType */ = {
+			isa = PBXGroup;
+			children = (
+				65A021DD2292E3E1002F5785 /* UserTypeViewController.swift */,
+			);
+			path = UserType;
+			sourceTree = "<group>";
+		};
+		655C2F39229918CB0007BB8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65BABCDF225B1D5B00F0A0CC /* Assets.xcassets */,
+				65BABCD5225B1D5A00F0A0CC /* AppDelegate.swift */,
+				65BABCE1225B1D5B00F0A0CC /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		655C2F3A229918F70007BB8C /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				65A021D922927247002F5785 /* DBManager.swift */,
+			);
+			path = DatabaseManager;
+			sourceTree = "<group>";
+		};
 		65BABCC9225B1D5A00F0A0CC = {
 			isa = PBXGroup;
 			children = (
+				73181E6922A20D0800585D3E /* Default-568h@2x.png */,
 				65BABCD4225B1D5A00F0A0CC /* AdaptiveQuran */,
 				65BABCD3225B1D5A00F0A0CC /* Products */,
+				BD909599983F2DD5DDBC5BBB /* Pods */,
+				511534651411BD66DA770C0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +149,54 @@
 		65BABCD4225B1D5A00F0A0CC /* AdaptiveQuran */ = {
 			isa = PBXGroup;
 			children = (
-				65BABCD5225B1D5A00F0A0CC /* AppDelegate.swift */,
-				65BABCD7225B1D5A00F0A0CC /* ViewController.swift */,
+				655C2F31229845F90007BB8C /* Data */,
+				655C2F3422990FBD0007BB8C /* Audio */,
+				7398AA5D22A216E100EA25C9 /* Pictures */,
+				655C2F39229918CB0007BB8C /* Supporting Files */,
+				655C2F3A229918F70007BB8C /* DatabaseManager */,
+				65DF4855227357FF002ECDF6 /* Controllers */,
 				65BABCD9225B1D5A00F0A0CC /* Main.storyboard */,
-				65BABCDF225B1D5B00F0A0CC /* Assets.xcassets */,
-				65BABCE1225B1D5B00F0A0CC /* LaunchScreen.storyboard */,
 				65BABCE4225B1D5B00F0A0CC /* Info.plist */,
-				65BABCDC225B1D5A00F0A0CC /* AdaptiveQuran.xcdatamodeld */,
 			);
 			path = AdaptiveQuran;
+			sourceTree = "<group>";
+		};
+		65DF4855227357FF002ECDF6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				655C2F38229918710007BB8C /* UserType */,
+				65DF485C227358C2002ECDF6 /* Surahs */,
+				655C2F37229918620007BB8C /* Lessons */,
+				655C2F36229918370007BB8C /* Lesson */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		65DF485C227358C2002ECDF6 /* Surahs */ = {
+			isa = PBXGroup;
+			children = (
+				65BABCEA225B1FA800F0A0CC /* ViewController.swift */,
+				65DF485322735756002ECDF6 /* SurahTableViewCell.swift */,
+			);
+			path = Surahs;
+			sourceTree = "<group>";
+		};
+		7398AA5D22A216E100EA25C9 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				733A991822AD49B400DB068A /* gearIcon.png */,
+				7398AA6022A2175100EA25C9 /* bg3.jpg */,
+			);
+			path = Pictures;
+			sourceTree = "<group>";
+		};
+		BD909599983F2DD5DDBC5BBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5324A4388BDB075FD2FA5B2A /* Pods-AdaptiveQuran.debug.xcconfig */,
+				C574CFAA31715CD914FB44B5 /* Pods-AdaptiveQuran.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65BABCE7225B1D5B00F0A0CC /* Build configuration list for PBXNativeTarget "AdaptiveQuran" */;
 			buildPhases = (
+				116751D3E0B98663B09A1E2D /* [CP] Check Pods Manifest.lock */,
 				65BABCCE225B1D5A00F0A0CC /* Sources */,
 				65BABCCF225B1D5A00F0A0CC /* Frameworks */,
 				65BABCD0225B1D5A00F0A0CC /* Resources */,
+				053427852F6CEB55D3B22745 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +261,71 @@
 			files = (
 				65BABCE3225B1D5B00F0A0CC /* LaunchScreen.storyboard in Resources */,
 				65BABCE0225B1D5B00F0A0CC /* Assets.xcassets in Resources */,
+				7398AA6122A2175100EA25C9 /* bg3.jpg in Resources */,
 				65BABCDB225B1D5A00F0A0CC /* Main.storyboard in Resources */,
+				733A991922AD49B400DB068A /* gearIcon.png in Resources */,
+				655C2F3522990FBD0007BB8C /* Audio in Resources */,
+				65A021DC22927615002F5785 /* Quran.db in Resources */,
+				73181E6A22A20D0800585D3E /* Default-568h@2x.png in Resources */,
+				655C2F0A22983F430007BB8C /* surahNames.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		053427852F6CEB55D3B22745 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AdaptiveQuran/Pods-AdaptiveQuran-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdaptiveQuran/Pods-AdaptiveQuran-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		116751D3E0B98663B09A1E2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdaptiveQuran-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		65BABCCE225B1D5A00F0A0CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65BABCD8225B1D5A00F0A0CC /* ViewController.swift in Sources */,
-				65BABCDE225B1D5A00F0A0CC /* AdaptiveQuran.xcdatamodeld in Sources */,
+				65DF485922735830002ECDF6 /* LessonsViewController.swift in Sources */,
+				65A021DA22927247002F5785 /* DBManager.swift in Sources */,
+				65DF485422735756002ECDF6 /* SurahTableViewCell.swift in Sources */,
+				65BABCEB225B1FA800F0A0CC /* ViewController.swift in Sources */,
+				655C2F072297D0B00007BB8C /* LessonCollectionViewCell.swift in Sources */,
 				65BABCD6225B1D5A00F0A0CC /* AppDelegate.swift in Sources */,
+				730841D622A0F9F6007112C5 /* LessonNumberTableViewCell.swift in Sources */,
+				65DF485B22735897002ECDF6 /* LessonViewController.swift in Sources */,
+				65A021DE2292E3E1002F5785 /* UserTypeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,16 +469,17 @@
 		};
 		65BABCE8225B1D5B00F0A0CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5324A4388BDB075FD2FA5B2A /* Pods-AdaptiveQuran.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9V4LT7B24M;
+				DEVELOPMENT_TEAM = Y9Y99HDUN5;
 				INFOPLIST_FILE = AdaptiveQuran/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AMC.AdaptiveQuran;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilal.Tarteel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,16 +488,17 @@
 		};
 		65BABCE9225B1D5B00F0A0CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C574CFAA31715CD914FB44B5 /* Pods-AdaptiveQuran.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9V4LT7B24M;
+				DEVELOPMENT_TEAM = Y9Y99HDUN5;
 				INFOPLIST_FILE = AdaptiveQuran/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AMC.AdaptiveQuran;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilal.Tarteel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -340,19 +527,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		65BABCDC225B1D5A00F0A0CC /* AdaptiveQuran.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				65BABCDD225B1D5A00F0A0CC /* AdaptiveQuran.xcdatamodel */,
-			);
-			currentVersion = 65BABCDD225B1D5A00F0A0CC /* AdaptiveQuran.xcdatamodel */;
-			path = AdaptiveQuran.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 65BABCCA225B1D5A00F0A0CC /* Project object */;
 }

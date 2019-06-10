@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Tarteel</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -18,8 +20,37 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutItemTypeExpert</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Expert</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>Expert</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutItemTypeIntermediate</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Intermediate</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>Intermediate</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutItemTypeBeginner</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Beginner</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>Beginner</string>
+		</dict>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

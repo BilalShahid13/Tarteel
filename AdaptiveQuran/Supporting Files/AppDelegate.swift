@@ -13,13 +13,44 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UINavigationBar.appearance().barStyle = .blackOpaque
+        
+        if let shortcutItem = launchOptions?[UIApplication.LaunchOptionsKey.shortcutItem] as? UIApplicationShortcutItem {
+            if shortcutItem.type == "Beginner" {
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let targetVC = storyboard.instantiateViewController(withIdentifier :"Surahs View") as! ViewController
+                targetVC.userTag = 0
+                targetVC.pageTitle = "Beginner"
+                if let navC = window?.rootViewController as! UINavigationController? {
+                    navC.pushViewController(targetVC, animated: false)
+                }
+            }
+            if shortcutItem.type == "Intermediate" {
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let targetVC = storyboard.instantiateViewController(withIdentifier :"Surahs View") as! ViewController
+                targetVC.userTag = 1
+                targetVC.pageTitle = "Intermediate"
+                if let navC = window?.rootViewController as! UINavigationController? {
+                    navC.pushViewController(targetVC, animated: false)
+                }
+            }
+            if shortcutItem.type == "Expert" {
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let targetVC = storyboard.instantiateViewController(withIdentifier :"Surahs View") as! ViewController
+                targetVC.userTag = 2
+                targetVC.pageTitle = "Expert"
+                if let navC = window?.rootViewController as! UINavigationController? {
+                    navC.pushViewController(targetVC, animated: false)
+                }
+            }
+        }
+        
         return true
     }
-
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
