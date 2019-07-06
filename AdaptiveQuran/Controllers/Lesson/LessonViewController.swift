@@ -196,7 +196,7 @@ class LessonViewController: UIViewController, AVAudioPlayerDelegate, UICollectio
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if verseByVerseSelectionCheck == false {
             let text = NSAttributedString(string: allocatedPhrases[indexPath.row])
-            return CGSize(width: abs((text.size().width*2)), height : 46)
+            return CGSize(width: abs((text.size().width*2)) + 5, height : 46)
         }
         else {
             let text = NSAttributedString(string: allocatedPhrases[indexPath.row])
@@ -214,7 +214,8 @@ class LessonViewController: UIViewController, AVAudioPlayerDelegate, UICollectio
             }
             else
             {
-                let multiplier = Int(width/250)
+                let multiplier = Int(width/260)
+                print("Multiplier", multiplier, width)
                 if multiplier >= 1
                 {
                     return CGSize(width: 320, height : CGFloat(46 + (multiplier * 46)))
