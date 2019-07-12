@@ -585,9 +585,4 @@ class LessonViewController: UIViewController, AVAudioPlayerDelegate, UICollectio
             }
         }
     }
-    
-    func initiateDelay(_ chunkTotalTime: Float) -> Bool {
-        sleep(UInt32(Int(chunkTotalTime)*self.delayInSeconds))
-        return true
-    }
 }
