@@ -181,11 +181,27 @@ class LessonViewController: UIViewController, AVAudioPlayerDelegate, UICollectio
         self.CollectionView.reloadItems(at: [indexPath])
     }
     
-    func highlightCollectionViewCell(_ CollectionView: UICollectionView, index pSelected: Int)
+    func highlightCollectionViewCellAsToRead(_ CollectionView: UICollectionView, index cSelected: Int)
     {
-        if let cell = CollectionView.cellForItem(at: IndexPath(row: pSelected, section: 0)) as? LessonCollectionViewCell{
+        if let cell = CollectionView.cellForItem(at: IndexPath(row: cSelected, section: 0)) as? LessonCollectionViewCell{
             cell.backgroundColor = UIColor.white
             cell.text.textColor = .black
+        }
+        self.CollectionView.reloadItems(at: [IndexPath(row: cSelected, section: 0)])
+    }
+    
+    func highlightCollectionViewCell(_ CollectionView: UICollectionView, index pSelected: Int, checkSpeak check: Bool)
+    {
+        if let cell = CollectionView.cellForItem(at: IndexPath(row: pSelected, section: 0)) as? LessonCollectionViewCell{
+            if check {
+                cell.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
+                cell.text.textColor = .white
+            }
+            else
+            {
+                cell.backgroundColor = UIColor.white
+                cell.text.textColor = .black
+            }
         }
         print (surahChunkNumber)
         currentSelected = surahChunkNumber
@@ -327,7 +343,7 @@ class LessonViewController: UIViewController, AVAudioPlayerDelegate, UICollectio
         
         if onTapWordHighlightCheck == true{
             onTapWordHighlightCheck = false
-            self.highlightCollectionViewCell(self.CollectionView, index: self.surahChunkNumber - 1)
+            self.highlightCollectionViewCell(self.CollectionView, index: self.surahChunkNumber - 1, checkSpeak: false)
         }
         
         if currentPosition >= audioLengthSamples {
@@ -358,7 +374,7 @@ class LessonViewController: UIViewController, AVAudioPlayerDelegate, UICollectio
             
             self.surahChunkNumber += 1
             initialSetup()
-            highlightCollectionViewCell(CollectionView, index: surahChunkNumber - 1)
+            highlightCollectionViewCell(CollectionView, index: surahChunkNumber - 1, checkSpeak: false)
             playPauseButton.sendActions(for: .touchUpInside)
         }
     }
@@ -372,7 +388,7 @@ class LessonViewController: UIViewController, AVAudioPlayerDelegate, UICollectio
             
             self.surahChunkNumber -= 1
             initialSetup()
-            highlightCollectionViewCell(CollectionView, index: surahChunkNumber + 1)
+            highlightCollectionViewCell(CollectionView, index: surahChunkNumber + 1, checkSpeak: false)
             playPauseButton.sendActions(for: .touchUpInside)
         }
     }
@@ -390,6 +406,7 @@ class LessonViewController: UIViewController, AVAudioPlayerDelegate, UICollectio
         if currentPosition >= audioLengthSamples {
             print("Chunk Finished")
             let chunkTotalTime = time
+            let pauseHiglight = surahChunkNumber
             player.stop()
             updater?.isPaused = true
             playPauseButton.isSelected = false
@@ -403,6 +420,7 @@ class LessonViewController: UIViewController, AVAudioPlayerDelegate, UICollectio
                     dispatchQueueWorkItem = DispatchWorkItem {
                         sleep(UInt32(Int(chunkTotalTime)*self.delayInSeconds))
                         DispatchQueue.main.async {
+                            self.highlightCollectionViewCellAsToRead(self.CollectionView, index: pauseHiglight)
                             if !self.playPauseButton.isSelected
                             {
                                 self.playPauseButton.sendActions(for: .touchUpInside)
@@ -410,7 +428,9 @@ class LessonViewController: UIViewController, AVAudioPlayerDelegate, UICollectio
                         }
                     }
                     DispatchQueue.global().async(execute: dispatchQueueWorkItem!)
-                    self.highlightCollectionViewCell(self.CollectionView, index: self.surahChunkNumber - 1)
+                    self.highlightCollectionViewCell(self.CollectionView, index: self.surahChunkNumber - 1, checkSpeak: true)
+//                    self.highlightCollectionViewCellAsToRead(self.CollectionView, index: pauseHiglight, checkPrint: true)
+                   
                 }
                 else
                 {
@@ -423,7 +443,7 @@ class LessonViewController: UIViewController, AVAudioPlayerDelegate, UICollectio
             {
                 self.surahChunkNumber = 0
                 self.previousSelected = IndexPath(row: self.allocatedPhrases.count - 1, section: 0)
-                self.highlightCollectionViewCell(self.CollectionView, index: self.previousSelected!.row)
+                self.highlightCollectionViewCell(self.CollectionView, index: self.previousSelected!.row, checkSpeak: false)
                 self.initialSetup()
             }
         }
@@ -564,5 +584,10 @@ class LessonViewController: UIViewController, AVAudioPlayerDelegate, UICollectio
                 player.play()
             }
         }
+    }
+    
+    func initiateDelay(_ chunkTotalTime: Float) -> Bool {
+        sleep(UInt32(Int(chunkTotalTime)*self.delayInSeconds))
+        return true
     }
 }
