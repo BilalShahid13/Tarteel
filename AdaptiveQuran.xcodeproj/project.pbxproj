@@ -10,7 +10,6 @@
 		4EA01793358C367A1360B244 /* Pods_AdaptiveQuran.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD69D918CA8EF3D3F16D8C8B /* Pods_AdaptiveQuran.framework */; };
 		655C2F072297D0B00007BB8C /* LessonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655C2F062297D0B00007BB8C /* LessonCollectionViewCell.swift */; };
 		655C2F0A22983F430007BB8C /* surahNames.csv in Resources */ = {isa = PBXBuildFile; fileRef = 655C2F0922983F430007BB8C /* surahNames.csv */; };
-		655C2F3522990FBD0007BB8C /* Audio in Resources */ = {isa = PBXBuildFile; fileRef = 655C2F3422990FBD0007BB8C /* Audio */; };
 		65A021DA22927247002F5785 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A021D922927247002F5785 /* DBManager.swift */; };
 		65A021DC22927615002F5785 /* Quran.db in Resources */ = {isa = PBXBuildFile; fileRef = 65A021DB22927615002F5785 /* Quran.db */; };
 		65A021DE2292E3E1002F5785 /* UserTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A021DD2292E3E1002F5785 /* UserTypeViewController.swift */; };
@@ -26,13 +25,37 @@
 		73181E6A22A20D0800585D3E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73181E6922A20D0800585D3E /* Default-568h@2x.png */; };
 		733A991922AD49B400DB068A /* gearIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 733A991822AD49B400DB068A /* gearIcon.png */; };
 		7398AA6122A2175100EA25C9 /* bg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7398AA6022A2175100EA25C9 /* bg3.jpg */; };
+		73C4E3D622D906FE00F3B3DD /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3BC22D906FE00F3B3DD /* 7.mp3 */; };
+		73C4E3D722D906FE00F3B3DD /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3BD22D906FE00F3B3DD /* 6.mp3 */; };
+		73C4E3D822D906FE00F3B3DD /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3BE22D906FE00F3B3DD /* 4.mp3 */; };
+		73C4E3D922D906FE00F3B3DD /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3BF22D906FE00F3B3DD /* 5.mp3 */; };
+		73C4E3DA22D906FE00F3B3DD /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3C022D906FE00F3B3DD /* 1.mp3 */; };
+		73C4E3DB22D906FE00F3B3DD /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3C122D906FE00F3B3DD /* 2.mp3 */; };
+		73C4E3DC22D906FE00F3B3DD /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3C222D906FE00F3B3DD /* 3.mp3 */; };
+		73C4E3DD22D906FE00F3B3DD /* 18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3C322D906FE00F3B3DD /* 18.mp3 */; };
+		73C4E3DE22D906FE00F3B3DD /* 17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3C422D906FE00F3B3DD /* 17.mp3 */; };
+		73C4E3DF22D906FE00F3B3DD /* 16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3C522D906FE00F3B3DD /* 16.mp3 */; };
+		73C4E3E022D906FE00F3B3DD /* 14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3C622D906FE00F3B3DD /* 14.mp3 */; };
+		73C4E3E122D906FE00F3B3DD /* 15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3C722D906FE00F3B3DD /* 15.mp3 */; };
+		73C4E3E222D906FE00F3B3DD /* 11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3C822D906FE00F3B3DD /* 11.mp3 */; };
+		73C4E3E322D906FE00F3B3DD /* 10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3C922D906FE00F3B3DD /* 10.mp3 */; };
+		73C4E3E422D906FE00F3B3DD /* 12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3CA22D906FE00F3B3DD /* 12.mp3 */; };
+		73C4E3E522D906FE00F3B3DD /* 13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3CB22D906FE00F3B3DD /* 13.mp3 */; };
+		73C4E3E622D906FE00F3B3DD /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3CC22D906FE00F3B3DD /* 8.mp3 */; };
+		73C4E3E722D906FE00F3B3DD /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3CD22D906FE00F3B3DD /* 9.mp3 */; };
+		73C4E3E822D906FE00F3B3DD /* V3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3CF22D906FE00F3B3DD /* V3.mp3 */; };
+		73C4E3E922D906FE00F3B3DD /* V2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3D022D906FE00F3B3DD /* V2.mp3 */; };
+		73C4E3EA22D906FE00F3B3DD /* V1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3D122D906FE00F3B3DD /* V1.mp3 */; };
+		73C4E3EB22D906FE00F3B3DD /* V5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3D222D906FE00F3B3DD /* V5.mp3 */; };
+		73C4E3EC22D906FE00F3B3DD /* V4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3D322D906FE00F3B3DD /* V4.mp3 */; };
+		73C4E3ED22D906FE00F3B3DD /* V6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3D422D906FE00F3B3DD /* V6.mp3 */; };
+		73C4E3EE22D906FE00F3B3DD /* V7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E3D522D906FE00F3B3DD /* V7.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5324A4388BDB075FD2FA5B2A /* Pods-AdaptiveQuran.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdaptiveQuran.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdaptiveQuran/Pods-AdaptiveQuran.debug.xcconfig"; sourceTree = "<group>"; };
 		655C2F062297D0B00007BB8C /* LessonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCollectionViewCell.swift; sourceTree = "<group>"; };
 		655C2F0922983F430007BB8C /* surahNames.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = surahNames.csv; sourceTree = "<group>"; };
-		655C2F3422990FBD0007BB8C /* Audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Audio; sourceTree = "<group>"; };
 		65A021D922927247002F5785 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		65A021DB22927615002F5785 /* Quran.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quran.db; sourceTree = "<group>"; };
 		65A021DD2292E3E1002F5785 /* UserTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTypeViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +73,31 @@
 		73181E6922A20D0800585D3E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		733A991822AD49B400DB068A /* gearIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gearIcon.png; sourceTree = "<group>"; };
 		7398AA6022A2175100EA25C9 /* bg3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg3.jpg; sourceTree = "<group>"; };
+		73C4E3BC22D906FE00F3B3DD /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7.mp3; sourceTree = "<group>"; };
+		73C4E3BD22D906FE00F3B3DD /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
+		73C4E3BE22D906FE00F3B3DD /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		73C4E3BF22D906FE00F3B3DD /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		73C4E3C022D906FE00F3B3DD /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		73C4E3C122D906FE00F3B3DD /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		73C4E3C222D906FE00F3B3DD /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		73C4E3C322D906FE00F3B3DD /* 18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 18.mp3; sourceTree = "<group>"; };
+		73C4E3C422D906FE00F3B3DD /* 17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 17.mp3; sourceTree = "<group>"; };
+		73C4E3C522D906FE00F3B3DD /* 16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 16.mp3; sourceTree = "<group>"; };
+		73C4E3C622D906FE00F3B3DD /* 14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 14.mp3; sourceTree = "<group>"; };
+		73C4E3C722D906FE00F3B3DD /* 15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 15.mp3; sourceTree = "<group>"; };
+		73C4E3C822D906FE00F3B3DD /* 11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 11.mp3; sourceTree = "<group>"; };
+		73C4E3C922D906FE00F3B3DD /* 10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10.mp3; sourceTree = "<group>"; };
+		73C4E3CA22D906FE00F3B3DD /* 12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 12.mp3; sourceTree = "<group>"; };
+		73C4E3CB22D906FE00F3B3DD /* 13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 13.mp3; sourceTree = "<group>"; };
+		73C4E3CC22D906FE00F3B3DD /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8.mp3; sourceTree = "<group>"; };
+		73C4E3CD22D906FE00F3B3DD /* 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 9.mp3; sourceTree = "<group>"; };
+		73C4E3CF22D906FE00F3B3DD /* V3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = V3.mp3; sourceTree = "<group>"; };
+		73C4E3D022D906FE00F3B3DD /* V2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = V2.mp3; sourceTree = "<group>"; };
+		73C4E3D122D906FE00F3B3DD /* V1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = V1.mp3; sourceTree = "<group>"; };
+		73C4E3D222D906FE00F3B3DD /* V5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = V5.mp3; sourceTree = "<group>"; };
+		73C4E3D322D906FE00F3B3DD /* V4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = V4.mp3; sourceTree = "<group>"; };
+		73C4E3D422D906FE00F3B3DD /* V6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = V6.mp3; sourceTree = "<group>"; };
+		73C4E3D522D906FE00F3B3DD /* V7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = V7.mp3; sourceTree = "<group>"; };
 		C574CFAA31715CD914FB44B5 /* Pods-AdaptiveQuran.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdaptiveQuran.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdaptiveQuran/Pods-AdaptiveQuran.release.xcconfig"; sourceTree = "<group>"; };
 		CD69D918CA8EF3D3F16D8C8B /* Pods_AdaptiveQuran.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdaptiveQuran.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -149,8 +197,8 @@
 		65BABCD4225B1D5A00F0A0CC /* AdaptiveQuran */ = {
 			isa = PBXGroup;
 			children = (
+				73C4E3BA22D906FE00F3B3DD /* Audio */,
 				655C2F31229845F90007BB8C /* Data */,
-				655C2F3422990FBD0007BB8C /* Audio */,
 				7398AA5D22A216E100EA25C9 /* Pictures */,
 				655C2F39229918CB0007BB8C /* Supporting Files */,
 				655C2F3A229918F70007BB8C /* DatabaseManager */,
@@ -188,6 +236,54 @@
 				7398AA6022A2175100EA25C9 /* bg3.jpg */,
 			);
 			path = Pictures;
+			sourceTree = "<group>";
+		};
+		73C4E3BA22D906FE00F3B3DD /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				73C4E3BB22D906FE00F3B3DD /* Surah_1 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		73C4E3BB22D906FE00F3B3DD /* Surah_1 */ = {
+			isa = PBXGroup;
+			children = (
+				73C4E3BC22D906FE00F3B3DD /* 7.mp3 */,
+				73C4E3BD22D906FE00F3B3DD /* 6.mp3 */,
+				73C4E3BE22D906FE00F3B3DD /* 4.mp3 */,
+				73C4E3BF22D906FE00F3B3DD /* 5.mp3 */,
+				73C4E3C022D906FE00F3B3DD /* 1.mp3 */,
+				73C4E3C122D906FE00F3B3DD /* 2.mp3 */,
+				73C4E3C222D906FE00F3B3DD /* 3.mp3 */,
+				73C4E3C322D906FE00F3B3DD /* 18.mp3 */,
+				73C4E3C422D906FE00F3B3DD /* 17.mp3 */,
+				73C4E3C522D906FE00F3B3DD /* 16.mp3 */,
+				73C4E3C622D906FE00F3B3DD /* 14.mp3 */,
+				73C4E3C722D906FE00F3B3DD /* 15.mp3 */,
+				73C4E3C822D906FE00F3B3DD /* 11.mp3 */,
+				73C4E3C922D906FE00F3B3DD /* 10.mp3 */,
+				73C4E3CA22D906FE00F3B3DD /* 12.mp3 */,
+				73C4E3CB22D906FE00F3B3DD /* 13.mp3 */,
+				73C4E3CC22D906FE00F3B3DD /* 8.mp3 */,
+				73C4E3CD22D906FE00F3B3DD /* 9.mp3 */,
+				73C4E3CE22D906FE00F3B3DD /* VerseByVerse */,
+			);
+			path = Surah_1;
+			sourceTree = "<group>";
+		};
+		73C4E3CE22D906FE00F3B3DD /* VerseByVerse */ = {
+			isa = PBXGroup;
+			children = (
+				73C4E3CF22D906FE00F3B3DD /* V3.mp3 */,
+				73C4E3D022D906FE00F3B3DD /* V2.mp3 */,
+				73C4E3D122D906FE00F3B3DD /* V1.mp3 */,
+				73C4E3D222D906FE00F3B3DD /* V5.mp3 */,
+				73C4E3D322D906FE00F3B3DD /* V4.mp3 */,
+				73C4E3D422D906FE00F3B3DD /* V6.mp3 */,
+				73C4E3D522D906FE00F3B3DD /* V7.mp3 */,
+			);
+			path = VerseByVerse;
 			sourceTree = "<group>";
 		};
 		BD909599983F2DD5DDBC5BBB /* Pods */ = {
@@ -259,15 +355,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C4E3DC22D906FE00F3B3DD /* 3.mp3 in Resources */,
+				73C4E3DE22D906FE00F3B3DD /* 17.mp3 in Resources */,
+				73C4E3D922D906FE00F3B3DD /* 5.mp3 in Resources */,
+				73C4E3D822D906FE00F3B3DD /* 4.mp3 in Resources */,
+				73C4E3E922D906FE00F3B3DD /* V2.mp3 in Resources */,
+				73C4E3E022D906FE00F3B3DD /* 14.mp3 in Resources */,
+				73C4E3E622D906FE00F3B3DD /* 8.mp3 in Resources */,
+				73C4E3D622D906FE00F3B3DD /* 7.mp3 in Resources */,
 				65BABCE3225B1D5B00F0A0CC /* LaunchScreen.storyboard in Resources */,
+				73C4E3E322D906FE00F3B3DD /* 10.mp3 in Resources */,
+				73C4E3E522D906FE00F3B3DD /* 13.mp3 in Resources */,
+				73C4E3EC22D906FE00F3B3DD /* V4.mp3 in Resources */,
 				65BABCE0225B1D5B00F0A0CC /* Assets.xcassets in Resources */,
+				73C4E3DB22D906FE00F3B3DD /* 2.mp3 in Resources */,
 				7398AA6122A2175100EA25C9 /* bg3.jpg in Resources */,
+				73C4E3E122D906FE00F3B3DD /* 15.mp3 in Resources */,
+				73C4E3ED22D906FE00F3B3DD /* V6.mp3 in Resources */,
 				65BABCDB225B1D5A00F0A0CC /* Main.storyboard in Resources */,
+				73C4E3E822D906FE00F3B3DD /* V3.mp3 in Resources */,
 				733A991922AD49B400DB068A /* gearIcon.png in Resources */,
-				655C2F3522990FBD0007BB8C /* Audio in Resources */,
+				73C4E3DA22D906FE00F3B3DD /* 1.mp3 in Resources */,
 				65A021DC22927615002F5785 /* Quran.db in Resources */,
 				73181E6A22A20D0800585D3E /* Default-568h@2x.png in Resources */,
+				73C4E3E222D906FE00F3B3DD /* 11.mp3 in Resources */,
+				73C4E3E722D906FE00F3B3DD /* 9.mp3 in Resources */,
+				73C4E3DD22D906FE00F3B3DD /* 18.mp3 in Resources */,
+				73C4E3EE22D906FE00F3B3DD /* V7.mp3 in Resources */,
+				73C4E3E422D906FE00F3B3DD /* 12.mp3 in Resources */,
+				73C4E3EB22D906FE00F3B3DD /* V5.mp3 in Resources */,
 				655C2F0A22983F430007BB8C /* surahNames.csv in Resources */,
+				73C4E3D722D906FE00F3B3DD /* 6.mp3 in Resources */,
+				73C4E3EA22D906FE00F3B3DD /* V1.mp3 in Resources */,
+				73C4E3DF22D906FE00F3B3DD /* 16.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

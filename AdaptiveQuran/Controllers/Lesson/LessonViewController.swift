@@ -473,15 +473,13 @@ class LessonViewController: UIViewController, AVAudioPlayerDelegate, UICollectio
     
     func setupAudio() {
         if verseByVerseSelectionCheck == false {
-            let subDirectory = "Audio/Surah_"+String(surahId)
             let fileName = String(allocatedPhraseIds[surahChunkNumber])
-            audioFileURL  = Bundle.main.url(forResource: fileName,withExtension: ".mp3",subdirectory: subDirectory)
+            audioFileURL  = Bundle.main.url(forResource: fileName,withExtension: ".mp3")
         }
         else
         {
-            let subDirectory = "Audio/Surah_"+String(surahId)+"/VerseByVerse"
             let fileName = "V" + String(allocatedPhraseIds[surahChunkNumber])
-            audioFileURL  = Bundle.main.url(forResource: fileName,withExtension: ".mp3",subdirectory: subDirectory)
+            audioFileURL  = Bundle.main.url(forResource: fileName,withExtension: ".mp3")
         }
         engine.attach(player)
         engine.attach(rateEffect)
