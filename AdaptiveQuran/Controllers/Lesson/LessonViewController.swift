@@ -441,9 +441,19 @@ class LessonViewController: UIViewController, AVAudioPlayerDelegate, UICollectio
             }
             else
             {
+                
                 self.surahChunkNumber = 0
                 self.previousSelected = IndexPath(row: self.allocatedPhrases.count - 1, section: 0)
-                self.highlightCollectionViewCell(self.CollectionView, index: self.previousSelected!.row, checkSpeak: false)
+                if onTapWordPlayCheck == false{
+                    dispatchQueueWorkItem = DispatchWorkItem {
+                        sleep(UInt32(Int(chunkTotalTime)*self.delayInSeconds))
+                        DispatchQueue.main.async {
+                            self.highlightCollectionViewCellAsToRead(self.CollectionView, index: pauseHiglight)
+                        }
+                    }
+                    DispatchQueue.global().async(execute: dispatchQueueWorkItem!)
+                }
+                self.highlightCollectionViewCell(self.CollectionView, index: self.previousSelected!.row, checkSpeak: true)
                 self.initialSetup()
             }
         }
